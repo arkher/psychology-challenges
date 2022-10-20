@@ -1,0 +1,42 @@
+.challenge-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  max-width: 800px;
+  font-size: 5vmin;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.error-text {
+  color: rgb(249, 170, 170)
+}
+
+.image-2 {
+  padding: 1.5em;
+  will-change: filter;
+  
+  width: 60%;
+
+}
+@media only screen and (max-width: 768px) {
+  .image-2{
+    width: 100%
+  }
+}
+
+.image-2:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.image-2.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.answer {
+  height: 30px;
+  margin-bottom: 1rem;
+}
